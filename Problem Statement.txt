@@ -1,0 +1,12 @@
+Create a Docker image for a NodeJS application, and then build and run using Jenkins
+---------------------------------------------------------------------------------------------------------------
+Bob wants to build a Docker image for a NodeJS application, and needs help to complete the task.
+
+1. The project directory contains the package.json, server.js, and Dockerfile files. You need to:
+a) Complete the server.js file and display the message "You have successfully built a docker image for NodeJS application".
+b) Complete the Dockerfile file and expose it on port 8000.
+2. Integrate the Docker application with Jenkins running on port 8080, and create a job JenkinsDockerDemo. 
+3. Build a Docker image myimage with tag tag1, and run the image on port 8000 in a detached mode.
+4. Successful completion can be verified on port 8000.
+
+Bob can verify successful completion of running of the image.
